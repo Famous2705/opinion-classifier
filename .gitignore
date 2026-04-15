@@ -1,0 +1,4 @@
+*.pkl
+aclImdb/
+__pycache__/
+*.pyc

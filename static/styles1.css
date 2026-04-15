@@ -1,0 +1,26 @@
+.first{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+header{
+    background-color: rgb(57, 168, 125);
+    color: white;
+    padding: 150px;
+}
+
+.flex-container{
+    color: forestgreen;
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 
+        inset 0 -3em 3em rgb(0 200 0 / 30%),
+        0 0 0 2px white,
+        0.3em 0.3em 1em rgb(200 0 0 /60%);
+    text-align: center;
+    padding: 20px;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="{{url_for('static', filename='styles1.css')}}">
+        <title>Your Score</title>
+    </head>
+    <body>
+        <header class="first">
+            <h1>
+                    My Opinion Classifier
+            </h1>
+        </header>
+        <div>
+            <p>
+                <h1 class="flex-container">
+                    {% if pred == "pos" %}
+                        This is a posivite opinion with a score of {{prob | round(2)}}
+                    {% else %}
+                        This is a negative opinion with a score of {{1 - (prob | round(2))}}
+                    {% endif %}
+                </h1>
+            </p>
+        </div>
+    </body>
+</html>

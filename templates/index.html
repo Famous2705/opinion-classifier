@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="{{url_for('static', filename='styles.css')}}">
+        <title>Opinion Classifier</title>
+    </head>
+    <body>
+        <header>
+            <h1>
+                    My Opinion Classifier
+            </h1>
+        </header>
+        <div class="flex-container">
+            <form method="post" action="{{ url_for('score')}}" novalidate>
+                <label for="ftext" class="my_text">Enter your Opinion here:</label><br>
+                <textarea id="message" class="my_input" name="ftext", rows="10", cols="50" placeholder="write here!">
+                </textarea><br>
+                <input type="submit" class="submit" value="Submit">
+            </form>
+        </div>
+    </body>
+</html>

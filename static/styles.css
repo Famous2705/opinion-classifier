@@ -1,0 +1,48 @@
+h1{
+    color: #eee;
+    text-align: center;
+    font-size: 100px;
+    border-bottom: 5px solid;
+}
+
+div{
+    box-shadow: 10px 10px lightblue;
+    text-align: center;
+}
+
+.flex-container{
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 
+        inset 0 -3em 3em rgb(0 200 0 / 30%),
+        0 0 0 2px white,
+        0.3em 0.3em 1em rgb(200 0 0 /60%);
+    text-align: center;
+    padding: 20px;
+}
+
+header{
+    background-color: rgb(57, 168, 125);
+    color: white;
+    padding: 150px;
+}
+
+.submit{
+    background-color:forestgreen;
+    border: none;
+    color:white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.my_text{
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
