@@ -14,6 +14,12 @@ I used the Framework **Flask** for the Backend, **scikit-learn**, **pandas**, **
 | Recall     | 0.88 |
 | F1-score   | 0.88 |
 
+# Example Predictions
+| Text | Prediction |
+|------|-----------|
+| "I love this product!" | Positive |
+![Opinion Classifier](screenshots/positive.png)
+
 # How to access
 ```bash
 git clone https://github.com/Famous2705/opinion-classifier.git
