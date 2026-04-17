@@ -15,3 +15,11 @@ python -m venv venv
 source venv/bin/activate  # or venv\Scripts\activate on Windows
 pip install -r requirements.txt
 python server.py
+
+# 📊 Model Performance
+| Metric     | Score |
+|------------|------|
+| Accuracy   | 0.88 |
+| Precision  | 0.88 |
+| Recall     | 0.88 |
+| F1-score   | 0.88 |
