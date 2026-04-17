@@ -47,11 +47,11 @@ predictions = classifier.predict(X_test_vec)
 joblib.dump(classifier, 'sentiment_model.pkl')
 joblib.dump(vectorizer, 'vectorizer.pkl')
 
-my_text = input("entrez une note en anglais please:\n")
-text_vec = vectorizer.transform([my_text])
-text_result = classifier.predict(text_vec)
-text_proba = classifier.predict_proba(text_vec)
-print(f"it is in the class {text_result[0]} with a probability of {text_proba[0][1]}")
+#my_text = input("entrez une note en anglais please:\n")
+#text_vec = vectorizer.transform([my_text])
+#text_result = classifier.predict(text_vec)
+#text_proba = classifier.predict_proba(text_vec)
+#print(f"it is in the class {text_result[0]} with a probability of {text_proba[0][1]}")
 
 # model performance
 #accuracy = accuracy_score(y_test, predictions)
