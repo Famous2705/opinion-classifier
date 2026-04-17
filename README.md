@@ -7,3 +7,11 @@ It uses a model that I trained with IMDB datas.
 
 I used the Framework **Flask** for the Backend, **scikit-learn**, **pandas**, **TfidfVectorizer** and **LogisticRegression** to train my model and for the Frontend I used **HTML** and **CSS**.
 
+# How to access
+bash
+git clone https://github.com/Famous2705/opinion-classifier.git
+cd opinion-classifier
+python -m venv venv
+source venv/bin/activate  # or venv\Scripts\activate on Windows
+pip install -r requirements.txt
+python server.py
