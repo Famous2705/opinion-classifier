@@ -12,6 +12,6 @@ I used the Framework **Flask** for the Backend, **scikit-learn**, **pandas**, **
 git clone https://github.com/Famous2705/opinion-classifier.git
 cd opinion-classifier
 python -m venv venv
-source venv/bin/activate  # ou venv\Scripts\activate sur Windows
+source venv/bin/activate  # or venv\Scripts\activate on Windows
 pip install -r requirements.txt
 python server.py
