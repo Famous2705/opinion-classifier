@@ -20,7 +20,7 @@ I used the Framework **Flask** for the Backend, **scikit-learn**, **pandas**, **
 | "I love this product!" | Positive |
 ![Opinion Classifier](screenshots/positive.png)
 
-# How to access
+# How to access with bash
 ```bash
 git clone https://github.com/Famous2705/opinion-classifier.git
 cd opinion-classifier
