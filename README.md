@@ -14,7 +14,7 @@ cd opinion-classifier
 python -m venv venv
 source venv/bin/activate  # or venv\Scripts\activate on Windows
 pip install -r requirements.txt
-python server.py
+python server.py ```
 
 # 📊 Model Performance
 | Metric     | Score |
